@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: The Bitwise Malandro
+subtitle:
+author: Julian Taub
 simple_search: https://www.google.com/search
-description:
+description: In Capoeira, a \"malandro\"" is someone who adapts in the moment and hacks the system through inventiveness. Here's to somersaulting through code!    
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
