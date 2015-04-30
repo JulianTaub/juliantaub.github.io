@@ -1,123 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>The Bitwise Malandro</title>
-  <meta name="author" content="Julian Taub">
-
-  
-  <meta name="description" content="
-">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://juliantaub.github.io/">
-  <link href="/favicon.png" rel="icon">
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="The Bitwise Malandro" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">The Bitwise Malandro</a></h1>
-  
-    <h2>In Capoeira, a &#34;malandro&#34; is someone who adapts in the moment and hacks the system through inventiveness. Here&#39;s to somersaulting through code!</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="sitesearch" value="juliantaub.github.io">
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
-
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
-  
-  
-  
-    <article>
-      
-  <header>
+  <title><![CDATA[The Bitwise Malandro]]></title>
+  <link href="http://juliantaub.github.io/atom.xml" rel="self"/>
+  <link href="http://juliantaub.github.io/"/>
+  <updated>2015-04-29T21:30:13-04:00</updated>
+  <id>http://juliantaub.github.io/</id>
+  <author>
+    <name><![CDATA[Julian Taub]]></name>
     
-      <h1 class="entry-title"><a href="/blog/2015/04/29/hashception-part-ii/">Hashception: Part II</a></h1>
-    
-    
-      <p class="meta">
-        
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
 
-
-
-
-<time class='entry-date' datetime='2015-04-29T18:09:05-04:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>29</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>6:09 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content">
-</div>
   
+  <entry>
+    <title type="html"><![CDATA[Hashception: Part II]]></title>
+    <link href="http://juliantaub.github.io/blog/2015/04/29/hashception-part-ii/"/>
+    <updated>2015-04-29T18:09:05-04:00</updated>
+    <id>http://juliantaub.github.io/blog/2015/04/29/hashception-part-ii</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/04/29/hashception-part-i/">Hashception: Part I</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-04-29T17:59:36-04:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>29</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>5:59 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A lot of programming is working through layers of data to retrieve or manipulate the necessary values. Wading into giant, deep containers of virtual lists an associatons can be daunting, but once you get more familiar with them, they come easier to navigate.</p>
+  <entry>
+    <title type="html"><![CDATA[Hashception: Part I]]></title>
+    <link href="http://juliantaub.github.io/blog/2015/04/29/hashception-part-i/"/>
+    <updated>2015-04-29T17:59:36-04:00</updated>
+    <id>http://juliantaub.github.io/blog/2015/04/29/hashception-part-i</id>
+    <content type="html"><![CDATA[<p>A lot of programming is working through layers of data to retrieve or manipulate the necessary values. Wading into giant, deep containers of virtual lists an associatons can be daunting, but once you get more familiar with them, they come easier to navigate.</p>
 
 <p>We’ve invited the characters of the movie Inception to help us out.</p>
 
@@ -270,35 +180,15 @@ Or this:
 </code></pre>
 
 <p>Now that we have the tools to do basic iteration, next post we&rsquo;ll tackle the dream.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/04/29/where-the-value-goes/">Where the Value Goes</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-04-29T17:45:36-04:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>29</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>5:45 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>One crucial topic I constantly come across as I am studying at Flatiron is that I always need to be aware and keep track of what values my variables hold throughout my code and how they change over time.</p>
+  <entry>
+    <title type="html"><![CDATA[Where the Value Goes]]></title>
+    <link href="http://juliantaub.github.io/blog/2015/04/29/where-the-value-goes/"/>
+    <updated>2015-04-29T17:45:36-04:00</updated>
+    <id>http://juliantaub.github.io/blog/2015/04/29/where-the-value-goes</id>
+    <content type="html"><![CDATA[<p>One crucial topic I constantly come across as I am studying at Flatiron is that I always need to be aware and keep track of what values my variables hold throughout my code and how they change over time.</p>
 
 <p>I cannot drill this into my head enough. Or tell you how many times being sloppy has ruined an afternoon.</p>
 
@@ -337,35 +227,15 @@ Or this:
 <li>Get dirty in the sandbox: Test out code snippets in the terminal using <em>irb</em>, or hacking into programs as they are running, using the <em>pry</em> gem.</li>
 </ul>
 
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/04/29/intro-post-what-is-a-malandro/">Intro: What Is a Malandro?</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-04-29T17:28:04-04:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>29</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>5:28 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://umbandaeucurto.com/wp-content/uploads/2013/08/Jorge_07_Ze_Pilintra_umbandaeucurto-610x259.jpg" alt="Picture of Ze Pilintra, fokloric trickster character of the Umbanda religion of Brazil" /></p>
+  <entry>
+    <title type="html"><![CDATA[Intro: What Is a Malandro?]]></title>
+    <link href="http://juliantaub.github.io/blog/2015/04/29/intro-post-what-is-a-malandro/"/>
+    <updated>2015-04-29T17:28:04-04:00</updated>
+    <id>http://juliantaub.github.io/blog/2015/04/29/intro-post-what-is-a-malandro</id>
+    <content type="html"><![CDATA[<p><img src="http://umbandaeucurto.com/wp-content/uploads/2013/08/Jorge_07_Ze_Pilintra_umbandaeucurto-610x259.jpg" alt="Picture of Ze Pilintra, fokloric trickster character of the Umbanda religion of Brazil" /></p>
 
 <p>In Brazilian culture, the word “malandro” is a very controversial term. It’s usually has the connotation of a rogue, a gutter-punk, or a trickster. Someone who is very devious and dosen’t play by the rules. They follow a way of life called “malandragem,” or getting the advantage by any means possible.</p>
 
@@ -384,80 +254,7 @@ Or this:
 <p><img src="http://i.imgur.com/b8jN6tv.gif" alt="Hacking in progress gif" /></p>
 
 <p>Hackers are a lot like malandros - they make things work, adapting to problems and systems at the tip of a fedora with everything they have on hand in any way they can. There’s no straight and narrow thinking - just bubbly, shapeshifting inventness.</p>
-</div>
+]]></content>
+  </entry>
   
-  
-
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2015/04/29/hashception-part-ii/">Hashception: Part II</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/29/hashception-part-i/">Hashception: Part I</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/29/where-the-value-goes/">Where the Value Goes</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/29/intro-post-what-is-a-malandro/">Intro: What Is a Malandro?</a>
-      </li>
-    
-  </ul>
-</section>
-
-
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - Julian Taub -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
-</footer>
-  
-
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
-</html>
+</feed>

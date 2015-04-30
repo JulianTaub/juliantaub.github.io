@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Hashes | The Bitwise Malandro]]></title>
+  <link href="http://juliantaub.github.io/blog/categories/hashes/atom.xml" rel="self"/>
+  <link href="http://juliantaub.github.io/"/>
+  <updated>2015-04-29T21:30:13-04:00</updated>
+  <id>http://juliantaub.github.io/</id>
+  <author>
+    <name><![CDATA[Julian Taub]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hashception: Part I]]></title>
+    <link href="http://juliantaub.github.io/blog/2015/04/29/hashception-part-i/"/>
+    <updated>2015-04-29T17:59:36-04:00</updated>
+    <id>http://juliantaub.github.io/blog/2015/04/29/hashception-part-i</id>
+    <content type="html"><![CDATA[<p>A lot of programming is working through layers of data to retrieve or manipulate the necessary values. Wading into giant, deep containers of virtual lists an associatons can be daunting, but once you get more familiar with them, they come easier to navigate.</p>
+
+<p>We’ve invited the characters of the movie Inception to help us out.</p>
+
+<p><img src="http://topwalls.net/wp-content/uploads/2012/04/inception-movie.jpg" alt="inception poster: hanging around in the middle of a street that curves 90 degrees vertically" /></p>
+
+<p>Let’s say you’re a contractor hired by the Tap Soft Drink company to infiltrate potential customers’ dreams and place bottles of Tap in “meaningful” parts of their dreams. They also want you to collect data on the content of people’s dreams, so that they can market to the public better. You’re a bit rusty on your dream infiltration technique, so you ask the team from Inception to bring you up to speed.</p>
+
+<p>The dream layout looks something like this:</p>
+
+<pre><code class="``ruby">    dream = { 
+     :dream_one =&gt;{
+        :location =&gt; "grandma's house",
+        :people =&gt; ["Grandma", "Grandpa", "Sis", "Brother", "Auntie Charlotte"],
+        :discussions =&gt; ["ancient aliens", "superheroes turned Senators", "ninjas"],
+        :items =&gt; {
+          "bratwurst" =&gt; {
+             :color =&gt; 'Firetruck red',
+             :shape =&gt; 'Cylindrical',
+             :satisfying =&gt; true,
+           },
+          "sofa" =&gt; {
+             :color =&gt; 'burnt sienna',
+             :shape =&gt; 'L-shaped',
+             :satisfying =&gt; true,
+           }
+        }
+      }
+     :dream_two =&gt;{
+        :location =&gt; 'enchanted forest',
+        :people =&gt; ['woodsman', 'wizard', 'Sleepy Tom', 'Butters', 'Tinkerbell'],  
+        :discussions =&gt; ['politics', 'magic','good', 'evil'],
+        :items =&gt; {
+           "tree of life" =&gt; {
+               :power =&gt; 'vivaciousness',
+               :state =&gt; 'glowing',
+               :color =&gt; 'golden',
+               :shape =&gt; 'branchy',
+               :blissful =&gt; true   
+               },
+            "magic potion" =&gt; {
+              :power =&gt; 'strength',
+               :state =&gt; 'bubbly',
+               :color =&gt; 'purple',
+               :shape =&gt; 'liquid',
+               :blissful =&gt; false   
+              } 
+         }
+     }     
+    }
+</code></pre>
+
+<p>The first thing is that you want is to get in and out of the dream as quickly as possible while completing your objective. Without the right constrainsts, you can end up stuck in a dream, forever!</p>
+
+<p>Don’t do this:</p>
+
+<pre><code class="``ruby">    while dream do
+       print “#{dream[:items]} ,”
+    end
+
+Or this:
+
+    loop do
+       print “#{dream[:items]} ,”
+    end
+</code></pre>
+
+<p>You will end up with this:</p>
+
+<p><img src="http://matthew.komputerwiz.net/wp-content/uploads/2015/01/chrome-infinite-loop.png" alt="infinite loop unresponsive message" /></p>
+
+<p><img src="http://media.giphy.com/media/ZAv0VrzFL29k4/giphy.gif" alt="limbo and total desctruction" /></p>
+
+<p>You&rsquo;ve entered a never-ending loop that crashes your program!</p>
+
+<p>You need to supply the variables to make sure you have a safe time. An incrementor like i is handy. The flow i =0, i &lt; (a number) and i+=1 inside the loop can help keep everything in check.</p>
+
+<p>Even better are methods that run through each element of data structures like an Array (similar to a list of elements) or a Hash (a list of keys that each point to, or associate with, a value). These types of methods, like each, collect, select and inject use an object called a block while operating. You can think of the block as an ambiguous dreamlike space that methods can yield their consciousness to. Just like dreams, things outside the block can appear inside the block, but anything defined in the block don’t exist on the outside.</p>
+
+<p>Let’s go through a few main methods that you might use:</p>
+
+<h4>Each</h4>
+
+<p>The .each method goes through each element, hands it over to the block, and returns exactly what you gave it. It’s like having a dream, forgetting about it, and going about your day the next morning. One of the ways programmers use .each is by printing out each element from the block to the screen.</p>
+
+<p>Array:</p>
+
+<pre><code class="``ruby">      [1, 2, 3, 4].each do |num|             
+           num * 2                                      
+        end
+  =&gt;     [1, 2, 3, 4]
+</code></pre>
+
+<p>Hash:</p>
+
+<pre><code class="``ruby">    names = {:name_one =&gt; “Julian”, :name_two =&gt; “Jeremy”}
+    names.each do |key, value|
+      value + “is awesome”             
+    end
+    =&gt;   {:name_one =&gt; “Julian”, :name_two =&gt; “Jeremy”}
+</code></pre>
+
+<h4>Collect</h4>
+
+<p>The .collect method is the “inception” method. Whatever happens inside the block changes the data structure .collect is affecting. You can plant easter eggs in the array or hash, and manipulate things to your liking. Dom Cobb would be proud.</p>
+
+<p><img src="http://media.giphy.com/media/qLuZhQmSOvcAM/giphy.gif" alt="Leonardo explains: And we bring the subject into that dream" /></p>
+
+<p><img src="http://media.giphy.com/media/S5S8rQ50V0ITK/giphy.gif" alt="Leonardo explains: And they fill it with their subconscious" /></p>
+
+<p>Array:</p>
+
+<pre><code class="``ruby">      [1, 2, 3, 4].collect do |num|             
+           num * 2                                      
+        end
+  =&gt;     [2, 4, 6, 8]
+</code></pre>
+
+<p>Hash:</p>
+
+<pre><code class="``ruby">    names = {:name_one =&gt; “Julian”, :name_two =&gt; “Jeremy”}
+    names.collect do |key, value|
+      value + “is awesome”             
+    end
+    =&gt;   {:name_one =&gt; “Julian is awesome”, :name_two =&gt; “Jeremy is awesome”}
+</code></pre>
+
+<h4>Select</h4>
+
+<p>The .select method returns a data structure filled only with values that are inherently true. How you define what is true inside the block is up to you. This method is great for filtering out unnecessary parts of an array or dream, and obtain only the element you wanted all along.</p>
+
+<p>Array:</p>
+
+<pre><code class="``ruby">      fruits = ['apple', 'banana', 'apple', 'banana']
+      fruits.select do |num|             
+           'apple'                                      
+        end
+  =&gt;     ['apple', 'apple']
+</code></pre>
+
+<h4>Inject</h4>
+
+<p>The .inject method takes an element and makes it interact with the upcoming elment. It keeps carrying over these values until they accumulate until it accumulates into a giant final snowball. It&rsquo;s like bringing on what you come across in one dream on to the next dream.</p>
+
+<p>Array:</p>
+
+<pre><code class="``ruby">      [1, 2, 3, 4].inject do |sum, num|             
+           sum + num                                      
+        end
+  =&gt;     10  
+</code></pre>
+
+<p>Now that we have the tools to do basic iteration, next post we&rsquo;ll tackle the dream.</p>
+]]></content>
+  </entry>
+  
+</feed>

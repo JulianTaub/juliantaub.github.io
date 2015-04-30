@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Values | The Bitwise Malandro]]></title>
+  <link href="http://juliantaub.github.io/blog/categories/values/atom.xml" rel="self"/>
+  <link href="http://juliantaub.github.io/"/>
+  <updated>2015-04-29T21:30:13-04:00</updated>
+  <id>http://juliantaub.github.io/</id>
+  <author>
+    <name><![CDATA[Julian Taub]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Where the Value Goes]]></title>
+    <link href="http://juliantaub.github.io/blog/2015/04/29/where-the-value-goes/"/>
+    <updated>2015-04-29T17:45:36-04:00</updated>
+    <id>http://juliantaub.github.io/blog/2015/04/29/where-the-value-goes</id>
+    <content type="html"><![CDATA[<p>One crucial topic I constantly come across as I am studying at Flatiron is that I always need to be aware and keep track of what values my variables hold throughout my code and how they change over time.</p>
+
+<p>I cannot drill this into my head enough. Or tell you how many times being sloppy has ruined an afternoon.</p>
+
+<p>Let’s start at the very beginning…</p>
+
+<p>The Ruby language has very few set keywords, so most of the work will come from you, the programmer, defining your own variables, meaning storing information by associating a name with a value (or technically, an object that has a value):</p>
+
+<pre><code class="`ruby">  x = 14
+  food = “pasta”
+  cities = [New York, Berlin, Dallas, Shanghai]
+</code></pre>
+
+<p>You use the variables as placeholders for data, so you can manipulate it for whatever program you’re working on. The problem arises when you call methods on the data, functions that operate on data in specific ways. Some are fairly straight forward. For example, most people can infer that:</p>
+
+<pre><code class="`ruby">  x = 14
+  x = x + 6
+</code></pre>
+
+<p>reassigns x to equal 20. However, other methods are less obvious. It’s always important to understand how each one “returns” a value. A method like puts prints to your screen, but returns a nil value. Other methods will change a copy of the data, leaving the variable’s original data intact.</p>
+
+<pre><code class="``ruby">  puts “Return me, please!” # =&gt; nil
+
+  name = “Julian”
+  name.upcase  # =&gt; “JULIAN”
+  name         # =&gt; “Julian” 
+</code></pre>
+
+<p>Some guidelines to keep in mind while tracking your variable:</p>
+
+<ul>
+<li>Ruby always returns the last value of a program. Think of how to use that to your advantadge.</li>
+<li>Ruby has built-in implicit returns, meaning just writing the variable is enough to get the value.</li>
+<li>Just because something is printed on the screen, doesn’t mean that the same value was returned in the program.</li>
+<li>Keep track of incrementing values, and methods that take multiple arguments</li>
+<li>Always read documentation for the nitty-gritty details. <a href="http://ruby-doc.org/">Ruby-doc.org</a> is the place to be.</li>
+<li>Get dirty in the sandbox: Test out code snippets in the terminal using <em>irb</em>, or hacking into programs as they are running, using the <em>pry</em> gem.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
