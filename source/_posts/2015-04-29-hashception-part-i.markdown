@@ -16,7 +16,7 @@ Let’s say you’re a contractor hired by the Tap Soft Drink company to infiltr
 The dream layout looks something like this:
 
   ```ruby
-    dream = { 
+    dreams = { 
      :dream_one =>{
         :location => "grandma's house",
         :people => ["Grandma", "Grandpa", "Sis", "Brother", "Auntie Charlotte"],
