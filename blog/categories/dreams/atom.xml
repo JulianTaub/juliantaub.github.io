@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Dreams | The Bitwise Malandro]]></title>
   <link href="http://juliantaub.github.io/blog/categories/dreams/atom.xml" rel="self"/>
   <link href="http://juliantaub.github.io/"/>
-  <updated>2015-04-29T22:15:41-04:00</updated>
+  <updated>2015-04-30T01:57:50-04:00</updated>
   <id>http://juliantaub.github.io/</id>
   <author>
     <name><![CDATA[Julian Taub]]></name>
@@ -28,7 +28,7 @@
 
 <p>The dream layout looks something like this:</p>
 
-<pre><code class="``ruby">    dream = { 
+<pre><code class="``ruby">    dreams = { 
      :dream_one =&gt;{
         :location =&gt; "grandma's house",
         :people =&gt; ["Grandma", "Grandpa", "Sis", "Brother", "Auntie Charlotte"],

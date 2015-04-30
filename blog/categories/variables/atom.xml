@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Variables | The Bitwise Malandro]]></title>
   <link href="http://juliantaub.github.io/blog/categories/variables/atom.xml" rel="self"/>
   <link href="http://juliantaub.github.io/"/>
-  <updated>2015-04-29T22:15:41-04:00</updated>
+  <updated>2015-04-30T01:57:50-04:00</updated>
   <id>http://juliantaub.github.io/</id>
   <author>
     <name><![CDATA[Julian Taub]]></name>
@@ -33,7 +33,7 @@
 
 <p>You use the variables as placeholders for data, so you can manipulate it for whatever program you’re working on. The problem arises when you call methods on the data, functions that operate on data in specific ways. Some are fairly straight forward. For example, most people can infer that:</p>
 
-<pre><code class="`ruby">  x = 14
+<pre><code class="``ruby">  x = 14
   x = x + 6
 </code></pre>
 
@@ -49,12 +49,12 @@
 <p>Some guidelines to keep in mind while tracking your variable:</p>
 
 <ul>
-<li>Ruby always returns the last value of a program. Think of how to use that to your advantadge.</li>
-<li>Ruby has built-in implicit returns, meaning just writing the variable is enough to get the value.</li>
-<li>Just because something is printed on the screen, doesn’t mean that the same value was returned in the program.</li>
-<li>Keep track of incrementing values, and methods that take multiple arguments</li>
-<li>Always read documentation for the nitty-gritty details. <a href="http://ruby-doc.org/">Ruby-doc.org</a> is the place to be.</li>
-<li>Get dirty in the sandbox: Test out code snippets in the terminal using <em>irb</em>, or hacking into programs as they are running, using the <em>pry</em> gem.</li>
+<li> Ruby always returns the last value of a program. Think of how to use that to your advantadge.</li>
+<li> Ruby has built-in implicit returns, meaning just writing the variable is enough to get the value.</li>
+<li> Just because something is printed on the screen, doesn’t mean that the same value was returned in the program.</li>
+<li> Keep track of incrementing values, and methods that take multiple arguments</li>
+<li> Always read documentation for the nitty-gritty details. <a href="http://ruby-doc.org/">Ruby-doc.org</a> is the place to be.</li>
+<li> Get dirty in the sandbox: Test out code snippets in the terminal using <em>irb</em>, or hacking into programs as they are running, using the <em>pry</em> gem.</li>
 </ul>
 
 ]]></content>
