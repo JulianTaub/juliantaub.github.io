@@ -12,9 +12,13 @@ In Brazilian culture, the word “malandro” is a very controversial term. It�
 
 It evokes a bit of a bad-boy persona, one that’s memorialized in songs and folklore.
  
+![Brazilian translation: 'Faith, love and charity. Save trickery.' (or, alrenatively, 'Save badassery.')](http://1.bp.blogspot.com/-rssJ7W8AOjs/UceTG6hv8bI/AAAAAAAAA8Q/z-LvVFOnUFY/s1600/malandragem.png)
+
+But in martial arts like capoeira, malandro and malandragem has a much more positive meaning. 
+
 ![Picture of capoeira fight](http://www.thisbusinessofdanceandmusic.com/images/kick.jpg)
 
-But in martial arts like capoeira, malandro and malandragem has a much more positive meaning. There it describes someone who is extremely versatile and can problem solve on cue. Fluid situational awareness and unconventional problem solving then take on an almost positive quality.
+There it describes someone who is extremely versatile and can problem solve on cue. Fluid situational awareness and unconventional problem solving then take on an almost positive quality.
 
 
 The word “hacker” can be just as controversial. In the programming community, hackers are inventive makers and testers, participating in a vibrant collaborative community. To the outside world, hackers are malcontents and thieves, bent on destroying people’s online lives and corrupt their data for laughs.
@@ -27,4 +31,4 @@ Sometimes the steretype gets taken to the extreme…
 
 Hackers are a lot like malandros - they make things work, adapting to problems and systems at the tip of a fedora with everything they have on hand in any way they can. There’s no straight and narrow thinking - just bubbly, shapeshifting inventness.
 
-Oi malandro e malandro!
+Oi malandro e malandro! - A malandro is a malandro!
