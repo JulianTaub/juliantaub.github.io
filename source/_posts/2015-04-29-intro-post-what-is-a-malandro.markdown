@@ -26,3 +26,5 @@ Sometimes the steretype gets taken to the extreme…
 ![Hacking in progress gif](http://i.imgur.com/b8jN6tv.gif)
 
 Hackers are a lot like malandros - they make things work, adapting to problems and systems at the tip of a fedora with everything they have on hand in any way they can. There’s no straight and narrow thinking - just bubbly, shapeshifting inventness.
+
+Oi malandro e malandro!
