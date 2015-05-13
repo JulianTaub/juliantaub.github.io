@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Intro: What Is A Malandro?"
+title: "A Bitwise Manifesto: What Is A Malandro?"
 date: 2015-04-29 17:28:04 -0400
 comments: true
 categories: "Flatiron&nbsp;School Programming Malandragem Hacker&nbsp;Culture"
@@ -12,7 +12,7 @@ In Brazilian culture, the word “malandro” is a very controversial term. It�
 
 It evokes a bit of a bad-boy persona, one that’s memorialized in songs and folklore.
  
-![Brazilian translation: 'Faith, love and charity. Save trickery.' (or, alrenatively, 'Save badassery.')](http://1.bp.blogspot.com/-rssJ7W8AOjs/UceTG6hv8bI/AAAAAAAAA8Q/z-LvVFOnUFY/s1600/malandragem.png)
+![Brazilian translation: 'Faith, love and charity. Save trickery.' (or, alrenatively, 'Save badassery.')](http://1.bp.blogspot.com/-rssJ7W8AOjs/UceTG6hv8bI/AAAAAAAAA8Q/z-LvVFOnUFY/s1600/malandragem.png "Ze Pilintra, the folkloric trickster of Brazilian culture.")
 
 But in martial arts like capoeira, malandro and malandragem has a much more positive meaning. 
 
