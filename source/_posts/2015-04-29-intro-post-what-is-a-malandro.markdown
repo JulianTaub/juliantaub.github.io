@@ -12,7 +12,7 @@ In Brazilian culture, the word “malandro” can be a very controversial term. 
 
 It evokes a bit of a bad-boy persona, one that’s memorialized in songs and folklore.
  
-![Brazilian translation: 'Faith, love and charity. Save trickery.' (or, alrenatively, 'Save badassery.')](http://1.bp.blogspot.com/-rssJ7W8AOjs/UceTG6hv8bI/AAAAAAAAA8Q/z-LvVFOnUFY/s1600/malandragem.png "Ze Pilintra, the folkloric trickster of Brazilian culture.")
+![Brazilian translation: 'Faith, love and charity. Save trickery.' (or, alrenatively, 'Save badassery.')](http://1.bp.blogspot.com/-rssJ7W8AOjs/UceTG6hv8bI/AAAAAAAAA8Q/z-LvVFOnUFY/s1600/malandragem.png "Translation: 'Faith, love and charity. Save trickery.'")
 
 But in martial arts like capoeira, malandro and malandragem has a much more positive meaning. 
 
