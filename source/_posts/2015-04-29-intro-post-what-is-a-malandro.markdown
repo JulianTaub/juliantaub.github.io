@@ -8,7 +8,7 @@ categories: "Flatiron&nbsp;School Programming Malandragem Hacker&nbsp;Culture"
 
 ![Picture of Ze Pilintra, fokloric trickster character of the Umbanda religion of Brazil](http://umbandaeucurto.com/wp-content/uploads/2013/08/Jorge_07_Ze_Pilintra_umbandaeucurto-610x259.jpg)
 
-In Brazilian culture, the word “malandro” is a very controversial term. It’s usually has the connotation of a rogue, a gutter-punk, or a trickster. Someone who is very devious and dosen’t play by the rules. They follow a way of life called “malandragem,” or getting the advantage by any means possible. 
+In Brazilian culture, the word “malandro” can be a very controversial term. It’s usually has the connotation of a rogue, a gutter-punk, or a trickster. Someone who is very devious and dosen’t play by the rules. They follow a way of life called “malandragem,” or getting the advantage by any means possible. 
 
 It evokes a bit of a bad-boy persona, one that’s memorialized in songs and folklore.
  
@@ -30,5 +30,12 @@ Sometimes the steretype gets taken to the extreme…
 ![Hacking in progress gif](http://i.imgur.com/b8jN6tv.gif)
 
 Hackers are a lot like malandros - they make things work, adapting to problems and systems at the tip of a fedora with everything they have on hand in any way they can. There’s no straight and narrow thinking - just bubbly, shapeshifting inventness.
+
+And on the topic of hacking the planet, here are some awesome worldwide and national hackathons:
+[NASA Space Apps Challenge](https://2015.spaceappschallenge.org/)
+[BattleHack](https://2015.battlehack.org/)
+[International Open Data Hackathon](http://opendataday.org/)
+[Code for America](https://www.codeforamerica.org/)
+
 
 Oi malandro e malandro! - A malandro is a malandro!
