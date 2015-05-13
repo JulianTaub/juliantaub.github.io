@@ -31,11 +31,10 @@ Sometimes the steretype gets taken to the extreme…
 
 Hackers are a lot like malandros - they make things work, adapting to problems and systems at the tip of a fedora with everything they have on hand in any way they can. There’s no straight and narrow thinking - just bubbly, shapeshifting inventness.
 
-And on the topic of hacking the planet, here are some awesome worldwide and national hackathons:
-[NASA Space Apps Challenge](https://2015.spaceappschallenge.org/)
-[BattleHack](https://2015.battlehack.org/)
-[International Open Data Hackathon](http://opendataday.org/)
-[Code for America](https://www.codeforamerica.org/)
-
+And on the topic of hacking the planet, here are some awesome worldwide and national hackathons:  
+[NASA Space Apps Challenge](https://2015.spaceappschallenge.org/)  
+[BattleHack](https://2015.battlehack.org/)  
+[International Open Data Hackathon](http://opendataday.org/)  
+[Code for America](https://www.codeforamerica.org/)  
 
 Oi malandro e malandro! - A malandro is a malandro!
