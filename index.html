@@ -9,7 +9,7 @@
   <meta name="author" content="Julian Taub">
 
   
-  <meta name="description" content="In the last post, we gathered up some useful methods for our journey. Now let’s take next step: entering the dream space. Remember that this is our &hellip;">
+  <meta name="description" content="Nothing gives you the edge more than creating your own toolbox to problem solve faster and more effienciently. As developers, we want to go in, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -65,6 +65,108 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2015/05/18/tooling-and-tasks-the-tricks-of-the-trade/">Tooling and Tasks: Configuring the Odds in Your Favor</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-05-18T19:08:20-04:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>7:08 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Nothing gives you the edge more than creating your own toolbox to problem solve faster and more effienciently. As developers, we want to go in, keyboards blazing. But going through the motions of setting things up can easily get in your way.</p>
+
+<p>Building up a treasure trove of smart tasks and shortcuts abstracts away a lot dirty work, so that you can focus on the bigger picture. You can set up tasks to automate all facets of your interaction with a program: the front end, back end, and even the keyboard. Here are some shortcuts I&rsquo;ve been exploring:</p>
+
+<h2>Back End:</h2>
+
+<h2>Rake Tasks</h2>
+
+<p>Rake tasks are part and parcel of the rails framework, but you can easily set up your own custom ones.</p>
+
+<p>You can create tasks that load different environments, install themes, generate templates, seed data, organize folders, and clean up unwanted files.</p>
+
+<p>All the tasks will be stored in a RakeFile, where you can handpick what gems and dependencies are required.</p>
+
+<p>Rake uses an intuitive and abstracted language to explain your tasks clearly. For example, a task making a new postmay look like:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">desc</span> <span class="s2">&quot;Makes new blog post&quot;</span>
+</span><span class='line'><span class="n">task</span> <span class="ss">:generate_post</span> <span class="k">do</span>
+</span><span class='line'>  <span class="c1"># makes a new post by targeting a directory and adding a new file with predetermined markup. </span>
+</span><span class='line'>    <span class="o">.</span><span class="n">.</span><span class="o">.</span><span class="n">.</span><span class="o">.</span>
+</span><span class='line'>  <span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Or to preview a simulation</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">desc</span> <span class="s2">&quot;Starts simulation&quot;</span>
+</span><span class='line'><span class="n">task</span> <span class="ss">:simulate</span> <span class="k">do</span>
+</span><span class='line'>  <span class="c1"># loads environment, starts server and runs scripts </span>
+</span><span class='line'>    <span class="o">.</span><span class="n">.</span><span class="o">.</span><span class="n">.</span><span class="o">.</span>
+</span><span class='line'>  <span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Gems</h3>
+
+<p>Extending your built in functionality is important in creating an awesome and robust program that feels intuitive.</p>
+
+<p>Gems are stored in the Gemfile, which is created during the bundle install command in the Terminal. Their dependencies and versions are safeguarded by the Gemfile.lock file.</p>
+
+<p>Some cool and useful gems I&rsquo;ve come across:</p>
+
+<p><a href="https://github.com/elastic/logstash">Logstash</a><br/>
+<a href="https://github.com/whitesmith/rubycritic">RubyCritic</a><br/>
+<a href="https://github.com/stympy/faker">Faker</a><br/>
+And lots more gems on the <a href="http://rubygems.org">Ruby Gems</a> website.</p>
+
+<h2>Front End</h2>
+
+<h3>Gruntfile.js</h3>
+
+<p>Grunt runs tasks with javascript using Node.js. It can run asynchronous tasks, check for typos in syntax, uglify files, and generate JSON. There are also tons of <a href="http://gruntjs.com/plugins">plugins</a> available for Grunt. Here are some good tutorials on how to start installing a using it:</p>
+
+<p><a href="http://gruntjs.com/getting-started">Grunt: Getting Started</a><br/>
+<a href="https://quickleft.com/blog/grunt-js-the-basics/">Grnt.js: The Basics</a></p>
+
+<h2>Text Editors</h2>
+
+<p>Both <a href="http://www.sublimetext.com/">Sublime Text</a> and <a href="https://atom.io/">Atom</a> have awesome autocompletion and snippets, however Sublime gets annoying quickly with popups to purchase their product, while atom is free.</p>
+
+<p>To the more hardcore programmers, the solution is either Vim or Emacs. Vim has a lot of shortcuts and starts with them as default, and emacs allows you to customize commands across many platforms. You can learn about both in the links below:</p>
+
+<p><a href="http://www.openvim.com/">Interactive Vim Tutorial</a><br/>
+<a href="http://www.jesshamrick.com/2012/09/10/absolute-beginners-guide-to-emacs/">Absolute Beginner&rsquo;s Guide to Emacs</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -587,6 +689,10 @@ Or this:
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/05/18/tooling-and-tasks-the-tricks-of-the-trade/">Tooling and Tasks: Configuring the Odds in Your Favor</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/04/29/hashception-part-ii/">Hashception: Part II</a>
