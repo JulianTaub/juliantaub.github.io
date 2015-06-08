@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://juliantaub.github.io/blog/2015/06/07/keeping-your-project-organized-and-focused/</loc>
+    <lastmod>2015-06-07T22:17:48-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://juliantaub.github.io/blog/2015/05/18/tooling-and-tasks-the-tricks-of-the-trade/</loc>
     <lastmod>2015-05-18T19:08:20-04:00</lastmod>
   </url>
@@ -73,5 +77,23 @@
   </url>
   <url>
     <loc>http://juliantaub.github.io/blog/categories/rails/</loc>
+  </url>
+  <url>
+    <loc>http://juliantaub.github.io/blog/categories/hacks/</loc>
+  </url>
+  <url>
+    <loc>http://juliantaub.github.io/blog/categories/project/</loc>
+  </url>
+  <url>
+    <loc>http://juliantaub.github.io/blog/categories/collaboration/</loc>
+  </url>
+  <url>
+    <loc>http://juliantaub.github.io/blog/categories/focus/</loc>
+  </url>
+  <url>
+    <loc>http://juliantaub.github.io/blog/categories/organization/</loc>
+  </url>
+  <url>
+    <loc>http://juliantaub.github.io/blog/categories/app/</loc>
   </url>
 </urlset>
