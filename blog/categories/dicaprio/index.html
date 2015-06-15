@@ -3,6 +3,10 @@
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
   <title>Category: Dicaprio - The Bitwise Malandro</title>
@@ -18,151 +22,262 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://juliantaub.github.io/blog/categories/dicaprio/">
+  <link rel="canonical" href="http://juliantaub.github.io/blog/categories/dicaprio">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="The Bitwise Malandro" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
   
 
 </head>
 
-<body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">The Bitwise Malandro</a></h1>
-  
-    <h2>In Capoeira, a &#34;malandro&#34; is someone who adapts in the moment and hacks the system through inventiveness. Here&#39;s to somersaulting through code!</h2>
-  
-</hgroup>
+  <body>
+    <a href="/" class="home-icon">
+      <img src="/images/home.png"/>
+    </a>
 
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="sitesearch" value="juliantaub.github.io">
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
-</ul>
+    <div class="all-posts">
+  <div class="container">
+    <div class="row">
+      <div class="list-title col-md-offset-3 col-md-6">
+        <h4>Posts in dicaprio</h4>
+      </div>
+    </div>
+  </div>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article role="article">
+  <div class="article-list">
+    <div class="container">
+      
+        
+        <div class="row">
+          <div class="col-md-offset-3 col-md-6">
+            <article>
+  <h2><a href="/blog/2015/04/29/hashception-part-i/">Hashception: Part I</a></h2>
   
-  <header>
-    <h1 class="entry-title">Category: Dicaprio</h1>
+  <p>
+    <p>A lot of programming is working through layers of data to retrieve or manipulate the necessary values. Wading into giant, deep containers of virtual lists an associatons can be daunting, but once you get more familiar with them, they come easier to navigate.</p>
+
+<p>We’ve invited the characters of the movie Inception to help us out.</p>
+
+<p><img src="http://topwalls.net/wp-content/uploads/2012/04/inception-movie.jpg" alt="inception poster: hanging around in the middle of a street that curves 90 degrees vertically" /></p>
+
+<p>Let’s say you’re a contractor hired by the Tap Soft Drink company to infiltrate potential customers’ dreams and place bottles of Tap in “meaningful” parts of their dreams. They also want you to collect data on the content of people’s dreams, so that they can market to the public better. You’re a bit rusty on your dream infiltration technique, so you ask the team from Inception to bring you up to speed.</p>
+
+<p>The dream layout looks something like this:</p>
+
+<pre><code class="``ruby">    dreams = { 
+     :dream_one =&gt;{
+        :location =&gt; "grandma's house",
+        :people =&gt; ["Grandma", "Grandpa", "Sis", "Brother", "Auntie Charlotte"],
+        :discussions =&gt; ["ancient aliens", "superheroes turned Senators", "ninjas"],
+        :items =&gt; {
+          "bratwurst" =&gt; {
+             :color =&gt; 'Firetruck red',
+             :shape =&gt; 'Cylindrical',
+             :satisfying =&gt; true,
+           },
+          "sofa" =&gt; {
+             :color =&gt; 'burnt sienna',
+             :shape =&gt; 'L-shaped',
+             :satisfying =&gt; true,
+           }
+        }
+      }
+     :dream_two =&gt;{
+        :location =&gt; 'enchanted forest',
+        :people =&gt; ['woodsman', 'wizard', 'Sleepy Tom', 'Butters', 'Tinkerbell'],  
+        :discussions =&gt; ['politics', 'magic','good', 'evil'],
+        :items =&gt; {
+           "tree of life" =&gt; {
+               :power =&gt; 'vivaciousness',
+               :state =&gt; 'glowing',
+               :color =&gt; 'golden',
+               :shape =&gt; 'branchy',
+               :blissful =&gt; true   
+               },
+            "magic potion" =&gt; {
+              :power =&gt; 'strength',
+               :state =&gt; 'bubbly',
+               :color =&gt; 'purple',
+               :shape =&gt; 'liquid',
+               :blissful =&gt; false   
+              } 
+         }
+     }     
+    }
+</code></pre>
+
+<p>The first thing is that you want is to get in and out of the dream as quickly as possible while completing your objective. Without the right constrainsts, you can end up stuck in a dream, forever!</p>
+
+<p>Don’t do this:</p>
+
+<pre><code class="``ruby">    while dream do
+       print “#{dream[:items]} ,”
+    end
+
+Or this:
+
+    loop do
+       print “#{dream[:items]} ,”
+    end
+</code></pre>
+
+<p>You will end up with this:</p>
+
+<p><img src="http://matthew.komputerwiz.net/wp-content/uploads/2015/01/chrome-infinite-loop.png" alt="infinite loop unresponsive message" /></p>
+
+<p><img src="http://media.giphy.com/media/ZAv0VrzFL29k4/giphy.gif" alt="limbo and total desctruction" /></p>
+
+<p>You&rsquo;ve entered a never-ending loop that crashes your program!</p>
+
+<p>You need to supply the variables to make sure you have a safe time. An incrementor like i is handy. The flow i =0, i &lt; (a number) and i+=1 inside the loop can help keep everything in check.</p>
+
+<p>Even better are methods that run through each element of data structures like an Array (similar to a list of elements) or a Hash (a list of keys that each point to, or associate with, a value). These types of methods, like each, collect, select and inject use an object called a block while operating. You can think of the block as an ambiguous dreamlike space that methods can yield their consciousness to. Just like dreams, things outside the block can appear inside the block, but anything defined in the block don’t exist on the outside.</p>
+
+<p>Let’s go through a few main methods that you might use:</p>
+
+<h4>Each</h4>
+
+<p>The .each method goes through each element, hands it over to the block, and returns exactly what you gave it. It’s like having a dream, forgetting about it, and going about your day the next morning. One of the ways programmers use .each is by printing out each element from the block to the screen.</p>
+
+<p>Array:</p>
+
+<pre><code class="``ruby">      [1, 2, 3, 4].each do |num|             
+           num * 2                                      
+        end
+  =&gt;     [1, 2, 3, 4]
+</code></pre>
+
+<p>Hash:</p>
+
+<pre><code class="``ruby">    names = {:name_one =&gt; “Julian”, :name_two =&gt; “Jeremy”}
+    names.each do |key, value|
+      value + “is awesome”             
+    end
+    =&gt;   {:name_one =&gt; “Julian”, :name_two =&gt; “Jeremy”}
+</code></pre>
+
+<h4>Collect</h4>
+
+<p>The .collect method is the “inception” method. Whatever happens inside the block changes the data structure .collect is affecting. You can plant easter eggs in the array or hash, and manipulate things to your liking. Dom Cobb would be proud.</p>
+
+<p><img src="http://media.giphy.com/media/qLuZhQmSOvcAM/giphy.gif" alt="Leonardo explains: And we bring the subject into that dream" /></p>
+
+<p><img src="http://media.giphy.com/media/S5S8rQ50V0ITK/giphy.gif" alt="Leonardo explains: And they fill it with their subconscious" /></p>
+
+<p>Array:</p>
+
+<pre><code class="``ruby">      [1, 2, 3, 4].collect do |num|             
+           num * 2                                      
+        end
+  =&gt;     [2, 4, 6, 8]
+</code></pre>
+
+<p>Hash:</p>
+
+<pre><code class="``ruby">    names = {:name_one =&gt; “Julian”, :name_two =&gt; “Jeremy”}
+    names.collect do |key, value|
+      value + “is awesome”             
+    end
+    =&gt;   {:name_one =&gt; “Julian is awesome”, :name_two =&gt; “Jeremy is awesome”}
+</code></pre>
+
+<h4>Select</h4>
+
+<p>The .select method returns a data structure filled only with values that are inherently true. How you define what is true inside the block is up to you. This method is great for filtering out unnecessary parts of an array or dream, and obtain only the element you wanted all along.</p>
+
+<p>Array:</p>
+
+<pre><code class="``ruby">      fruits = ['apple', 'banana', 'apple', 'banana']
+      fruits.select do |num|             
+           'apple'                                      
+        end
+  =&gt;     ['apple', 'apple']
+</code></pre>
+
+<h4>Inject</h4>
+
+<p>The .inject method takes an element and makes it interact with the upcoming elment. It keeps carrying over these values until they accumulate until it accumulates into a giant final snowball. It&rsquo;s like bringing on what you come across in one dream on to the next dream.</p>
+
+<p>Array:</p>
+
+<pre><code class="``ruby">      [1, 2, 3, 4].inject do |sum, num|             
+           sum + num                                      
+        end
+  =&gt;     10  
+</code></pre>
+
+<p>Now that we have the tools to do basic iteration, next post we&rsquo;ll tackle the dream.</p>
+
+  </p>
+  <span class="meta">
+    written 
+
+
+
+
+
+
+
+
+  
+
+
+
+<time datetime="2015-04-29T17:59:36-04:00" pubdate data-updated="true"></time>
     
-  </header>
+
+in
+<span class="categories">
   
-  <div id="blog-archives" class="category">
+    <a class='category' href='/blog/categories/dicaprio/'>dicaprio</a>, <a class='category' href='/blog/categories/dreams/'>dreams</a>, <a class='category' href='/blog/categories/hashes/'>hashes</a>, <a class='category' href='/blog/categories/inception/'>inception</a>
+  
+</span>
 
 
+  </span>
 
   
-  <h2>2015</h2>
-
-<article>
-  
-<h1><a href="/blog/2015/04/29/hashception-part-i/">Hashception: Part I</a></h1>
-<time datetime="2015-04-29T17:59:36-04:00" pubdate><span class='month'>Apr</span> <span class='day'>29</span> <span class='year'>2015</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/dicaprio/'>dicaprio</a>, <a class='category' href='/blog/categories/dreams/'>dreams</a>, <a class='category' href='/blog/categories/hashes/'>hashes</a>, <a class='category' href='/blog/categories/inception/'>inception</a></span>
-</footer>
-
-
 </article>
 
+          </div>
+        </div>
+      
+    </div>
+  </div>
 </div>
 
-  
-</article>
-
+    <footer id="footer" class="her-row">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+  <a href="/"><h4>Home</h4></a>
 </div>
 
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
+<div class="col-md-2">
+  <div class="social-icon-list">
     
-      <li class="post">
-        <a href="/blog/2015/06/07/keeping-your-project-organized-and-focused/">Keeping Your Project Organized and Focused</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/05/18/tooling-and-tasks-the-tricks-of-the-trade/">Tooling and Tasks: Configuring the Odds in Your Favor</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/29/hashception-part-ii/">Hashception: Part II</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/29/hashception-part-i/">Hashception: Part I</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015/04/29/where-the-value-goes/">Where the Value Goes</a>
-      </li>
-    
-  </ul>
-</section>
 
+    
 
+    
 
+    
+  </div>
+</div>
 
-
-  
-</aside>
+<div class="pull-right">
+  <h4>Powered by <a href="http://octopress.org/">Octopress</a>. Designed by <a href="http://AdrianArtiles.com">Adrian Artiles</a>.</h4>
+</div>
 
 
     </div>
   </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2015 - Julian Taub -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
-
 </footer>
-  
 
-
-
-
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-
-</body>
+    
+  </body>
 </html>
